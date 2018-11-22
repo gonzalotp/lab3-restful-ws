@@ -61,7 +61,6 @@ public class AddressBookServiceTest {
 		assertEquals(response_2.getStatus(),response.getStatus());
 		assertEquals(response_2.readEntity(AddressBook.class).getPersonList().size(),
 				ab1.getPersonList().size());
-
 	}
 
 	@Test
